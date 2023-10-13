@@ -1,6 +1,3 @@
-document.getElementById("square-one").addEventListener("click", squareClicked)
+const ttcSquares = Array.from(document.getElementsByClassName("ttc-square"));
 
-
-function squareClicked(){
-    window.alert();
-}
+console.log(ttcSquares);
